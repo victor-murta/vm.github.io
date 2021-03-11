@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    color: #545758;
+}
+
+body{
+    
+    display: block;
+    text-align: center;
+}
+
+h4{
+    margin: 23rem  0 0 0;
+    font-size: 3rem;
+}
+
+h4 span{
+    color: #4CD62B;
+}
+
+p{
+    font-size: 30px;
+}
+
+a{
+    padding: 15px;
+    text-decoration: none;
+    background:crimson;
+    color: #fff;
+    border-radius: 7px;
+    transition: all .2s ease-in-out;
+}
+
+a:hover{
+    filter: brightness(0.9);
+}

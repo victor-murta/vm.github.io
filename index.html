@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Victor Murta Garcia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="icon" href="./logoPortifolio.png">
+
+</head>
+<body>
+    
+    <section class = 'loader'>
+        <svg max-width = "1440px" width="210" height="100" viewBox="0 0 210 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class = "logo-letter" d="M92.0553 0.207997C88.4073 10.768 84.9033 20.56 81.5433 29.584C78.2793 38.512 75.0633 47.008 71.8953 55.072C68.7273 63.136 65.5593 70.864 62.3913 78.256C59.3193 85.552 56.1513 92.8 52.8873 100H39.7833C36.5193 92.8 33.3033 85.552 30.1353 78.256C27.0633 70.864 23.8953 63.136 20.6313 55.072C17.4633 47.008 14.1993 38.512 10.8393 29.584C7.47925 20.56 4.02325 10.768 0.47125 0.207997H15.8793C21.0633 15.376 26.1513 29.968 31.1433 43.984C36.1353 58 41.2713 71.152 46.5513 83.44C51.8313 71.248 56.9673 58.144 61.9593 44.128C66.9513 30.016 71.9913 15.376 77.0793 0.207997H92.0553Z" fill="white"/>
+            <path class = "logo-letter letter-red" d="M150.699 86.176C149.739 83.872 148.443 80.944 146.811 77.392C145.275 73.84 143.595 70 141.771 65.872C139.947 61.744 137.979 57.52 135.867 53.2C133.851 48.784 131.931 44.656 130.107 40.816C128.283 36.88 126.555 33.376 124.923 30.304C123.387 27.232 122.139 24.88 121.179 23.248C120.123 34.576 119.259 46.864 118.587 60.112C117.915 73.264 117.339 86.56 116.859 100H103.179C103.563 91.36 103.995 82.672 104.475 73.936C104.955 65.104 105.483 56.464 106.059 48.016C106.731 39.472 107.403 31.168 108.075 23.104C108.843 15.04 109.659 7.408 110.523 0.207997H122.763C125.355 4.43199 128.139 9.42399 131.115 15.184C134.091 20.944 137.067 26.992 140.043 33.328C143.019 39.568 145.899 45.856 148.683 52.192C151.467 58.432 154.011 64.144 156.315 69.328C158.619 64.144 161.163 58.432 163.947 52.192C166.731 45.856 169.611 39.568 172.587 33.328C175.563 26.992 178.539 20.944 181.515 15.184C184.491 9.42399 187.275 4.43199 189.867 0.207997H202.107C205.371 32.368 207.819 65.632 209.451 100H195.771C195.291 86.56 194.715 73.264 194.043 60.112C193.371 46.864 192.507 34.576 191.451 23.248C190.491 24.88 189.195 27.232 187.563 30.304C186.027 33.376 184.347 36.88 182.523 40.816C180.699 44.656 178.731 48.784 176.619 53.2C174.603 57.52 172.683 61.744 170.859 65.872C169.035 70 167.307 73.84 165.675 77.392C164.139 80.944 162.891 83.872 161.931 86.176H150.699Z" fill="#DC143C"/>
+        </svg>
+    </section>
+
+    <div class="scroll-up-btn">
+        <i class = "fas fa-angle-up"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">V<span>M.</span></a></div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2" id = "text-2"><span class = "n">V</span><span>i</span><span>c</span><span>t</span><span>o</span><span>r</span> <span class = "specific">M</span><span>u</span><span>r</span><span>t</span><span>a</span></div>
+                <div class="text-3">And I'm a <span class= "typing"></span></div>                
+                <a href="#contact" >Contatar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre mim</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./Screenshot_20201022-182822_Video_Player-removebg-preview.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text" >Meu nome é Victor e eu sou <span class="typing-2"></span></div>
+                    <p>Quando eu conheci a programação de fato, na faculdade, percebi que era oque eu queria trabalhar,mesmo nunca ter participado de um projeto ,ou qualquer coisa do tipo,apenas por ter aprendido a lógica de programação ,em Python, no inicio do semestre .Todas as tardes após a aula eu investia cada vez mais em programação,exercícios para melhorar a lógica,e ainda faço até hoje ,mesmo tendo férias na faculdade.
+                    .Com esse conteúdo percebi que poderia ajudar os colegas ensinando-os a progamarem melhor ,ajudando como um monitor,sem mesmo ter sido escolhido para esse cargo na época,explicando as matérias para aqueles que ficaram de recuperação ou para aqueles que apenas estavam com dúvida sobre o conteúdo.
+                    Hoje eu sou monitor e posso ajudar mais pessoas tanto as do meu semestre quanto as outras dos outros semestres.O objetivo desse site é poder colocar os conteúdos aprendidos em prática.</p>
+                    <a href="./Resume.pdf">Intalar CV</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Serviços prestados</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Front-end</div>
+                        <p>Linguagens já estudadas:</p>
+                        <ul class = "box-languages">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <p>Linguagem que ainda será estudada:</p>
+                        <ul class = "box-languages">
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Back-end</div>
+                        <p>Linguagem já estudada:</p>
+                        <ul class = "box-languages">
+                            <li>None</li>
+                        </ul>
+                        <p>Linguagens que serão estudadas:</p>
+                        <ul class="box-languages">
+                            <li>Node</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Software developer</div>
+                        <p>Linguagens estudadas:</p>
+                        <ul class="box-languages">
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>JAVA</li>
+                            <li>JS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="languages" id="languages">
+        <div class="max-width">
+            <h2 class="title">Projetos</h2>
+            <div class="carousel owl-carousel">
+                <div class="card ">
+                    <div class="box"> 
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="">
+                        <div class="text">Python</div>
+                        <p>Python</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" alt="">
+                        <div class="text">GameC++</div>
+                        <p>C++</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <div class="text">NLW4-trilha-react</div>
+                        <p>Java Script</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="">
+                        <div class="text">EmailSender</div>
+                        <p>Python</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="">
+                        <div class="text">PythonWithExcel</div>
+                        <p>Python</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="">
+                        <div class="text">SegurancaDaInformacao</div>
+                        <p>Python</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <div class="text">DiscordBot</div>
+                        <p>Java Script</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAaVBMVEX////PZJrNW5XOYZjOXpfNWpXMV5P//f778/f9+fv89vnRap724uzai7L35+/Sb6HUdqXms8zhosHw0eDXgazz2ubkq8flsMrrwtb57fPsxdjVeqjouM/03unfm7ztytvckrbYha7gn790t179AAAUD0lEQVR4nN1dCZeqOhLWJGwioLIIooj+/x/52AJVSUBAhL6v5pw5M7e7WYpav1qy261F5tG/xdElz4O0JCfPo3PsHw+rPcCmdHxeHU/XNY0QxmhHjBFN0/VTFodbP+IvKXleUlK8OqX7XqIlK9Lr/5IPbpzvteL1+98eM4Ll/taPvCgZfuQVn3/U67fEyP5y3PrJFyLDz9nY7y+xIfg/CEOY0akCAImS0z9uGY6R/Q0DGi447tbvMZsOt4CRWSogEGPXrd9lHh3f+0UYUBEJkq3fZzJZhQh8qwOI2P4fs41JYQUWE4GGKLtv/VoTKMz38xzhB9L+GSb4r2WVABD5J5hgxOl0JQBZ04e/ZX/fJhzi0xQOVHmizuxT6jR0Ou11fSChovYfDxQOd280B4qMSN+neRT7rnmwLKO5hGWZZhhHRWLdcyX22vQVP5A1mgOU6fvgHR9Nq/diB/fuUE11ORKv+E7TyBipBcX72/n1YRqfL2nGgSYbV+r9VZzpmSo/mvj8hAVRaI6+qhE6MmPJ+YfvMZ/C1wgZKBjg3JMR3x9fOiWSIPSr0Gbk5p8DopoBc65uRaI+kD/nH61o/zEiYlo6jwEV3QRPyfLlnn4RenqirEoioNnvx1QVwPcQxMz+U1bRdfRPgR1J4/FGsIfuWNLYH4KVrOunxIDRPPxKBBp6IU7/oawhPA2rASX2e6HINkS8/jMGwboMRwSUeNfFkB8jgPei6VLX/Y4+CEHBgfPXZgDQGd6NegteeTZZ0aAQLM2B3e6BOP4XHMNRCt4QEXthDux2iY3usH0CHQ/GhWwfLc2BQvBSdMuteWDm+hAH6PsXGDg2ilvz4OENxASUOT8qkTqQBxvbgyE9oCT9WToT/BkeWJcBPWD27yAeZA829Y3mq98fUHZZ3hR2d/YgDzaMkdwBU0CCn/ZKuPDOLPvlrQYp7Af/2f7HSKevQX5vljPdekNDSvIfqkFFbygHmwFJd62HA2sUhIUQaaMqfNTLAi3/vad6QDGgp5/fT0m9PpGtUgG8IJN4WeGOimfoYwFx1ghXDtAzbmQOLj2KQPV1LPQNoQf2FvWFPhYwe53+SQNZxE2ig2uPImjOEnDpCHqib7AFqnzvYYG+Vt3POiEw0VuJ84CeakWg+mqWCWGJW/QkPdQpArNXi1MSzHv71yGpROZeGSCzdL0M/oW+Alk9OMAWuXuQtaxhQXchXV89Ts6UeAHJ13sCF38EEq1365piNQtWFEfsEzawBq7SHq6qkTl+hNWdgnFS9oWtGaZFWBBpunZsEKk0YU1bINlD+ljx5iWFKk1gwYoJy014Am11g6jSBOqtaJNEFtB07YRRlMPqKfYrDtrdpKa8taf8TJU9ZLf1HkDyy+s36b4V1oC817v/WWLB6rCBq9KE03pJwlu8/6rGuKZcIQbrgReHQG7QXT1PUInBeprwsMUvQPdrRwZKa7CeW7xL5X26wQjPQWUQVwrVzZcEXG3BAlW+uFaAcpM7wDdhwc6Tg4N1vLPryIVdyp5r3Fqgo4wkr2INDleqsEPbjPhe5SdZocZn3DwFhM3s9T1CSYpsiY2M1Z+z5VY9EUXSbdrwDgpVGGkRH7o+a0+B4asnoki2UQeaL4skG5m5h/ocH2rG6qk4ut0I2102B2OLSmVbMZv44G7kqbt8iLfdvEqueKKx0brDSrhtvA8x4xdTd31SLVu9otSRXFcZHyBVABzz4lHYp/nMezdFEG+LqKAlW3og6oz+44xV3zB4fuBaOdC8V4zyNjf8acPnCJIfaULbQ9NQSskpcnvYYJhunPUOttcs3CYo6EjBgwmA7rGp0lKmpZdncoBaYR1M/3552frQziyqnbYfZJUfa5K/89tSdbn+zguyy/Ua367X6O2ktv5pZVwhQPMNQcHjkhbI7rzveIAhkHInImPlmkQ2uC6wYRp9zZUBy48KHjNd1/fp5evg0pEedWKskkhQ2ChixJs/D3m39ZbHBSu/jSzkysLUjMmIJq8GomSf+/OFOMQzx2y8I1PTQ4qVpw+WPqZsxynshu08vwJNM+xlvw+yZSQnmF7v9cfuBiHUe/tfpkaGENPQrw2CDKzPaX0wng4dZkPx/nsvvy1QQhPqwzT4/oqSMsxsxEvuwZ7J246q/blsbweRvxA6IOzKWAL/tcXPNx9GssL48vK4j2TVIqwiZoie4UT9t45+XNDtqFJLAfVhC7BW8gxfL+Q5HN3QL/7jHpM5VwrfJ70IrwrSdFv+yEKBeAFVKFRZjhC2zOKslw58LZWbhAVzMCW07ydZEJZg7Vzy9Q/PcsWPqy+DvUgWQdswjxEqf3KpQzAHC/URPyVBOK3fLs5JBHXEVzwKnnGpkthLjBG2wzdd4WtIm/MEOVlsXYopB4tbLf0Wpgck82wJj7pcPegmBkrrN0g2JIatovMX23YWrJBnkjZsM2Zs4QqwPPAtmu8FeWBI1eelWxDCe+68sviDFQ/xZ5bsktzAtuBjJhLus2QV/Phm1UkUjGjD+iu2bYvOfy/Sop9Kyp3o1/gMp8cL4OpkaEdqIjyDmMLK/SLL1shlu7gME8wcV9eGxgGEkFUadpbEYOlVYtKw+yJMiKVWi/5ET7RKYrmHswiAKHIA8R2dl2fCwVHUtXsFwSeDv2k012JRtzSGnhauUUnT3vTLpmW5+XA/NM7/EuyywAM+Y6GZEEZZup9T3v3wVdR860Gce5RBGq/ECRNvFyk4AzIcffFKnYIJ8w3vtafy0NcHLAVqGBvgP9aS3bHj7Q/O7JA/HXFmZmYXwcgTncuyOjUXHaPAA7cRg2rirzOec2DwT+RLw67Mm4XYvZFIUS2Pj7faoGvq6EvukEOOj1fESInPgViK/KBsfZQWI1E6I2TEikBeVSJar/lQ88CSoBwEIoVcDKrAEARLP1k2KjcR0+kTpzG8BuVtS7U9V+sCfy2v8/4Qy2nho0ozj5Bfv+joM96yZXxNQ4hR5N3JUW3WpCygouYl2SXr3q8DyngUqzfOGkRTTDFnYLqPML7H16j4L//hzoG35Y76aS2kJsrA2kjLqAMA5eQih4u1IwiYWyiHK0obWyA4CQlCEp7zk7dnJTpfNgKQIlnx0iw+TjXt8uLEKQflGAH8a62Ns8xazG3Tz9Pshj9OEx8VJgCUgQn/Ux4etSgyDCk7QbAeUWArzkosMlaNepk/LaYsMh2BCXstG8dJ44YYCIY1m7fzLsVTMuJBs8DHrYuwCKxT5fYuaX7aldkx2FKLS/j2enr/mq9IvPc0JyLrAzmNsT5+gPJE6L+59+NNTAC05AFQmS2DFZJN8sxdodY9ANwkVbIqidMhBnA2sGm9L+EcJ/kQD5KALyo0vQBvwwtoVYYAsoE6WvZ18NOG8K6E5+hjsihzJlk2SR+oFg1GZW4uZsow3xB2BsMw8MxVoeQY6KGusN12Jp/CmztopdiEQ6IYu0zxE3Lyrzn9dsWMpF+nJ2BDxP7wLiUy+K87Iq/KXWF3wS/WpBxTH0dkUkOgG4iiwLye0sPhbss5EuplEHOiDkzh485NBAly6MJPJFwKBJA5UAt/hVrqxa1su6zZakTRIzftNDjjKhoatVEwbqp2HITyHIRKIbXbHzVGnp++AiE15nPW6YJF9hWzQIULTJ3o7rtukphJQa5/u2avk3S4qjapdvAQF85TBZYrOIP2TlBmQhElysSfcOOB7B1XDDleFyCX8iCgi5+oHPgheV4C3CxE8ikxk3URv7B2wZbxqDhVqHrLHP7WRTSXrTzxl6Gm8A/wDW3JGmNBYOnVHTLYhnt/QXs1CHDL5IteUoNMTLI+q4zEwBInpxh/Y5fjhG28p5i5VHRJJbDJlo0ZIThegM2aWEo7ZIKok9Y9mP1H9dAcXkNUhQ5WbAGilmWmVPZSdNO7eMvguAntJOogzqmLd57Cm7KgYoIVo6N6sAHGLSKiKrQgmNmIAUTSxRU1il2SIcZrR3dRJVmruGRidT0RUPKSCcYTOQNKXhn8vwg/llWBc4hH0FDaRVxNXikainjX+G0FT8696XvMhQSCOX6AOZA+kc/GqLCoCg0YUtgq/kCo+QW3WsiawFkAYITxOE/bZ04mA7JH7CWxr2H23dqZsECho4hSDJDa0IHbPw2xDPWjyKe2cRawvLWLUzrJDk5zUzYZXbGkrR0tB/bVTBK057hQJlm5Vko4OiJoPBQESQzchgVFpNK6UTrlkAKjyTbmlGxj5WhGkYvVMRwsnWNVkPq+WJO98ZxQLObg/W349ThDS8PemdpJ/UOHxqmwGci8jDqDFAR1lOuoCCbNivBAmVsQJuZi/fzcNTBVVf7p4uppK1wS5ZXHkSUVBfdnzksXmANsc13J3+f1D/jqAdmiQUHA6VJTvKlBpa6Ja2JXZY3SzupHdYUvyrLue8dKkK8kaSUdRwr51yZS6RRtD2Pgx81bNwFBd8+pnaW1BOqTlcHNxbP74I2jPvGVggOuvNyRyFGei/w/uBrf+kpq0e+qU1N5UFdtpv5V8tYHz9mEaqJDCyU2FrR5M+eaLooBhqahk3GAMdhBn8umFt0qQZhmEA4XiQMYMjVgtUzvxb3AO7VdFbl4s6uI3fAfNOzknhAswp08f1Op0ZRt5saZIAVt/0f3veE+CQCQqCrKDfe5URfhEVlwCP8N4BZL6izn9K6c6nknjHffEFDG6JnHZ8CgPyAP4BMpBghrubV5tCfcLZHqr1znYi4GTUTVmaAZXq6UodGHXBxTaAqplietwwdu69nnFuQFA/UrPHW1GBhp/WYw+WgAl4Y5PNA37VlhYkNlfDXy7KPDGzmDemVF1zjcvgCCAUHYJyPAzY29HjFoNj3T01n8yhyaJo3ud30ec5o1z6N5ECOYiDaa2FaWO+eCXCN4JHl8sFYg3lKgC8aMY+ns2K3XbNCGRvq4Ieskb9bIRalYY+xBEqBmNf3VeLE2sevSjkwdHoillT3Xbh6yC7EBt4fFJbpkoI6puB9p+A4EbNauw1JwR/iFCKkB63DQ9tiUjpFwtwrp6iGKg46qCKkVAxwb8EEVksFDDOvrte6i+ujPDtDQZm03Kz/axwG2I95mpcNDadLWKDZSiHbWAx4otlBV9itQigG3cqy4bAKq8NV3brStYruVdT/V5zXPlZ9R/5BtnpEQUNxH1PKAb1fr4UH77UDxqMyneNKsI9ygdQllxAMgyNoINmyj+c66Ayulz5vvK1M8uh/8lQTX2bQAO59O8l0VD1qb2AbQoMHW6d5HSBhzDvCEu7bIxrnW9Wx7GQE+aO5BKSVMM6xETwQfyicTtTxo585hRtmixly9qdMxrQyguBhoyJ7z/LLSUjBq1nCqNc8wryYz+4mTj2KAe5eZ3PzVvlLbLQttYuvz2+T45iAeNFYCw0c8Ea4YDrv7mlBZcWIO6asBf6RSQPUBi2jiA401Ra9qIPEAVhB46OG2ViNJIQ9uzetQeMm2L6v86k9F5C1xgOqXuW2qpcgNLdUX+s2VCifzAM2cNXkjzxhZZKH+Wg4CQHVM+D+WLhsBkLwCJYDTVE9nN6mWpzCxgRgRNy1TZfzRwSItD9Bj10WmNophiQlCJZsbeAi4cZtKSouJgoq2bzyEysD0dP7I1blkwam/9IyDGqbe+NwVAFoeJOgJS7ffdtEU5gFXDJrvCxGYxnKwl7EzMtTj2cXB7b9TQvL5AyaHsstIe/WzAGN/LFDnY92wQYtpG/Dvyhb7TnYLPglTvNVfQkDzzhOlwy48oQyFgo9w0au+Pj29fzG/4heqTrWBGhM+tK73ZCKAn7YuA8Gt1Hu28FFp0xQ8gPMXnKfeIXljVcR1g+Sa51n8VYvyXadMfw24Ezx10H84U/e+XVPxGZksUIsrI0yZBzBn7sa5PFzhnjk5MER33R7UI3yMKcv7WNBZeTB9/1D47/ZXFD0FQMZVp2BU3Bvog5tN1qA/jQVb0PvLXdoKUDNDHkGoSC89oNiShaNk9RlhjK5+FsUuRE9CB3ZMAEgb5H1in0VzndoHiS1Ue2CWLRULGNlgw6ggrgO4xKH74jDMUStD01sprviCzv0g8aBwftkWSxhwGWDkUC5qvFKe79OEIvjcGeGEB7yKo7Dbp+smBzvjh6QDURSMe9FydtWhb7zFFh/jLtQ6E6/xImWbqW5nX6zV+4bwocKDIFPcvQ4ubeAwqf6F1m8AMZPPozMvKS13QnpBdn5stHBbnEQbKkqbwP4LmLbs47pWq64lSXlIsFU215qHbQSgpgN2bEOHS6P5CSGEEaMAGAhFvOck3egQ90803hqECCcQQogQuwYKZ7KNS70M472ZrH8gHKUMzHojuyH/Hg62BaDmcXGcaKu9Qx/piGV44AwGXDaSpfq1ANy5DWFjNrCCC5lO1aCt4TSQPGX79UPdbwhHsv1DxEKkowwlb8FeJ5rmZducqzGXLKQJ/ecqPHE819P3YCTHZ+huu0l+Oj2wOegZzxdbLbdcMrg8Cc0vPXULIRT+ydj9diTsYlPLgbgz5vvNxn+KxIW9CnvgipvVh1DJf5HE6oXUnWHcpWHyH2wi2ZSknTRYzA0/lU/Y+39pgmIGFQLK1jMQW3Tntn78ZZKW0jCnXnJtHPyLJ3NAMXL5z5M0Y1EeFpNdLllAddVagVWPQV+JVFPk1dZ0NVpOBmp1/ywdlK/aR+z1r8XBo0gxYtxLs9eH/XGSTlzvJ623AvePkzmeBb8/5nMrUtfJJNrm1NmVyBQHiJVEgj8KCS9DqhqRQGy7ZfQrkTR1JKrBT5oB/hZZihlWIAPbHzK4Bpni+pdOBIjubHfg6qpkZIrxvYIBmn3+X5tCTG62r45drHwErfctBfc/Wxn6FR38OHPScnYvDfLr839vBP4DWcHuj2jchIMAAAAASUVORK5CYII=" alt="">
+                        <div class="text">SpiderMan</div>
+                        <p>Scss</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <div class="text">SomeHtmlAndCssProjects</div>
+                        <p>Css</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <div class="text">TinderClone</div>
+                        <p>Java Script</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="">
+                        <div class="text">PasswordGenerator</div>
+                        <p>Python</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="">
+                        <div class="text">Calculator</div>
+                        <p>Python | tkinter</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <div class="text">aluraquiz-base</div>
+                        <p>Java Script</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <div class="text">Java Script</div>
+                        <p>Java Script</p>
+                    </div>
+                </div> 
+                <div class="card ">
+                    <div class="box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <div class="text">Java Script</div>
+                        <p>Java Script</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Entre em contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in touch</div>
+                    <p>Mande-me um projeto,ou um email para entrar-mos em contato</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                <div class="sub-title">Victor Murta Garcia</div>
+                            </div>
+                            <div class="ico">
+                                <div class="linkedin">
+                                    <a href="https://www.linkedin.com/in/victor-murta-a5a8261a6/"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                                <div class="github">
+                                    <a href="https://github.com/victor-murta"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Enviar</div>
+                    <form action="https://formsubmit.co/vmurtag16@gmail.com" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="hidden" name = "_subject" value = "NEW Email from vm.portifolio.com">
+                                <input type="text"  placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email"  name = "email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text"  placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name = "message" placeholder="Describe project..." required></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="hidden" name = "_next" value = "https://vmportifolio/thanku.html">
+                            <button type="submit">Enviar mensagem</button>
+                        </div>
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span class="name">VM. <a id = "i" class="far fa-copyright" href = "./login-page.html"></a></span>
+    </footer>
+
+    <script src="./scripts.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+</body>
+</html>
