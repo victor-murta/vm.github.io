@@ -146,20 +146,33 @@ html{
     
 }
 
-
 .navbar .menu li:hover{
     font-weight: 500;
     font-size: 18px;
     transition: 0.6s ease;
-    transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-5px,0);
 } 
-
-
 
 .navbar .sticky .menu li a:hover{
     color: #fff;
 }
 
+.navbar .change-language{
+    align-items: center;
+    font-size: 18px;
+}
+
+.navbar .change-language a{
+    color: #b8b3b3;
+    padding: 0 15px;
+}
+.navbar .change-language .t1{
+    border-right: 1px solid white;
+}
+
+.navbar .change-language .active{
+    color: #ffffff;
+}
 
 .menu-btn {
     color: #fff;
@@ -167,7 +180,6 @@ html{
     cursor: pointer;
     display: none;
 }
-
 
 .scroll-up-btn{
     position: fixed;
@@ -195,14 +207,12 @@ html{
     pointer-events: auto;
 }
 
-
-
 .home {
     display: flex;
     background: url("./MyImage1.png") no-repeat right;
-    background-size: 50%;
+    background-size: 40%;
     background-color: black;
-    height: 100vh;
+    height: 110vh;
     color: #fff;
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
@@ -379,6 +389,7 @@ footer{
 }
 
 .about .about-content .right a:hover{
+    transition:all 0.3s ease-in-out;
     color: crimson;
     background: white;
     
@@ -402,16 +413,9 @@ footer{
 
 }
 
-/* .services .serv-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-} */
-
 .services .serv-content .card{
-    width: calc(33%- 20px);
-    height: 165px;
+    width: 23rem;
+    height: 415px;
     background: rgb(41, 39, 39);
     text-align: center;
     border-radius: 6px;
@@ -420,23 +424,53 @@ footer{
     transition: all 0.45s ease-in-out;
     position: relative;
     overflow: hidden;
-
+    
     display: flex;
     justify-content: center;
-    
 
+    border-bottom: 4px solid crimson;
+}
+
+.services .serv-content .card .show-text{
+    /* width: ; */
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.services .serv-content .card:hover .text{
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.services .serv-content .card:hover .show-text{
+    opacity: 1;
+    z-index: 2;
+    margin: -270px 0px ;
+    width: 100%;
+    
+}
+
+.services .serv-content .card:hover {
+    border-bottom: none;
+    background: linear-gradient(to bottom, crimson, #971616c4);
+} 
+
+.services .serv-content .card:hover .tx1{
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
 }
 
 .services .serv-content .card .text{
     font-weight: 900;
     font-size: 30px;
-    margin: 25px auto;
+    text-align: center;
+    margin: 150px auto;
 }
 
 
 .services .serv-content .card p{
-    display: flex;
-    align-items: left;
+    display: block;
+    align-items: center;
     padding: 15px;
 }
 
@@ -445,7 +479,10 @@ footer{
 }
 
 .services .serv-content .card p{
+    font-size: 20px;
     font-weight: 700;
+    border-bottom: 2px solid white;
+    
 }
 
 .services .serv-content .card p ul,
@@ -453,18 +490,12 @@ footer{
     display: flex;
     align-items: left;
     list-style: none;
+    
 }
 
 .services .max-width .serv-content .card .box-languages li{
     margin-left: 35px;
 }
-
-.services .serv-content .card:hover {
-    background: crimson;
-    height: 415px;
-}
-
-
 
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -474,21 +505,16 @@ footer{
     transform: scale(1.1);
 }
 
-.services .serv-content .card i{
-    font-size: 50px;
-    color: crimson;
-}
-
 .services .serv-content .card:hover i{
     color: #fff;
 
 }
 
-.services .serv-content .card i .text {
+/* .services .serv-content .card i .text {
     font-size: 23px;
     font-weight: 500;
-    margin: 10px 0 7px  ;
-}
+    margin: 10px 0 7px ;
+} */
 
 /* skill */
 

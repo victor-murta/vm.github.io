@@ -33,15 +33,20 @@
         <div class="max-width">
             <div class="logo"><a href="#">V<span>M.</span></a></div>
                 <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#languages">Languages</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home" class="t1">Home</a></li>
+                    <li><a href="#about"class="t2">About</a></li>
+                    <li><a href="#services" class="t3">Services</a></li>
+                    <li><a href="#languages" class="t4">Projects</a></li>
+                    <li><a href="#contact" class="t5">Contact</a></li>
                 </ul>
                 <div class="menu-btn">
                     <i class="fas fa-bars"></i>
                 </div>
+                <div class="change-language">
+                    <a href="#" language='portuguese' class="t1">PT</a>
+                    <a href="#" language='english' class="active t2" >EN</a>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -51,7 +56,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2" id = "text-2"><span class = "n">V</span><span>i</span><span>c</span><span>t</span><span>o</span><span>r</span> <span class = "specific">M</span><span>u</span><span>r</span><span>t</span><span>a</span></div>
                 <div class="text-3">And I'm a <span class= "typing"></span></div>                
-                <a href="#contact" >Contatar</a>
+                <a href="#contact" class='button1' >Contact</a>
             </div>
         </div>
     </section>
@@ -64,11 +69,11 @@
                     <img src="./Screenshot_20201022-182822_Video_Player-removebg-preview.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text" >Meu nome é Victor e eu sou <span class="typing-2"></span></div>
+                    <div class="text" >Skills: <span class="typing-2"></span></div>
                     <p>Quando eu conheci a programação de fato, na faculdade, percebi que era oque eu queria trabalhar,mesmo nunca ter participado de um projeto ,ou qualquer coisa do tipo,apenas por ter aprendido a lógica de programação ,em Python, no inicio do semestre .Todas as tardes após a aula eu investia cada vez mais em programação,exercícios para melhorar a lógica,e ainda faço até hoje ,mesmo tendo férias na faculdade.
                     .Com esse conteúdo percebi que poderia ajudar os colegas ensinando-os a progamarem melhor ,ajudando como um monitor,sem mesmo ter sido escolhido para esse cargo na época,explicando as matérias para aqueles que ficaram de recuperação ou para aqueles que apenas estavam com dúvida sobre o conteúdo.
                     Hoje eu sou monitor e posso ajudar mais pessoas tanto as do meu semestre quanto as outras dos outros semestres.O objetivo desse site é poder colocar os conteúdos aprendidos em prática.</p>
-                    <a href="./Resume.pdf">Intalar CV</a>
+                    <a href="./english.pdf">See CV</a>
                 </div>
 
             </div>
@@ -81,51 +86,48 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
                         <div class="text">Front-end</div>
-                        <p>Linguagens já estudadas:</p>
-                        <ul class = "box-languages">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                        </ul>
-                        <p>Linguagem que ainda será estudada:</p>
-                        <ul class = "box-languages">
-                            <li>Ruby</li>
-                        </ul>
+                        <div class="show-text">
+                            <p class = "txt1">Knowledge in</p>
+                            <ul class = "box-languages">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JS</li>
+                                <li>Ruby</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
                         <div class="text">Back-end</div>
-                        <p>Linguagem já estudada:</p>
-                        <ul class = "box-languages">
-                            <li>None</li>
-                        </ul>
-                        <p>Linguagens que serão estudadas:</p>
-                        <ul class="box-languages">
-                            <li>Node</li>
-                            <li>Python</li>
-                            <li>Java</li>
-                        </ul>
+                        <div class="show-text">
+                            <p class = "txt1">Knowledge in</p>
+                            <ul class="box-languages">
+                                <li>Node</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
                         <div class="text">Software developer</div>
-                        <p>Linguagens estudadas:</p>
-                        <ul class="box-languages">
-                            <li>Python</li>
-                            <li>C++</li>
-                            <li>JAVA</li>
-                            <li>JS</li>
-                        </ul>
+                        <div class="show-text">
+                            <p class = "txt1">Knowledge in</p>
+                            <ul class="box-languages">
+                                <li>Python</li>
+                                <li>C++</li>
+                                <li>JAVA</li>
+                                <li>JS</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -287,7 +289,7 @@
                             <textarea cols="30" rows="10" name = "message" placeholder="Describe project..." required></textarea>
                         </div>
                         <div class="button">
-                            <input type="hidden" name = "_next" value = "https://victor-murta.github.io/vm.portfolio/thanku.html">
+                            <input type="hidden" name = "_next" value = "https://victor-murta.github.io/thanku.html">
                             <button type="submit">Enviar mensagem</button>
                         </div>
                     </form>
