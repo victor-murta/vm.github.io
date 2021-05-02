@@ -91,9 +91,11 @@ var data = {
         "txt1": "Hello, my name is",
         "txt3": "And I'm a ",
         "bt1": "Contact",
-        "text_about": "Testing",
+        "text_about": "Since I met programming, in college, I decided to invest on it every day.For me code every day is not about work,is not to  study more everyday, it means a pleasure to solve problems, a pelasure to code,and not just something that I do everyday. I also not just invest in myself, but also invest in others, giving extra classes , solving problems that they have in the codes. ",
         "bt2": "See CV",
-        "cv": "./english.pdf"
+        "cv": "./english.pdf",
+        "text1_languages": "Knowledge in",
+        
     },
     "portuguese":{
         "nav1": "Inicio",
@@ -107,8 +109,8 @@ var data = {
         "text_about": "Quando eu conheci a programação de fato, na faculdade, percebi que era oque eu queria trabalhar,mesmo nunca ter participado de um projeto ,ou qualquer coisa do tipo,apenas por ter aprendido a lógica de programação ,em Python, no inicio do semestre .Todas as tardes após a aula eu investia cada vez mais em programação,exercícios para melhorar a lógica,e ainda faço até hoje ,mesmo tendo férias na faculdade.Com esse conteúdo percebi que poderia ajudar os colegas ensinando-os a progamarem melhor ,ajudando como um monitor,sem mesmo ter sido escolhido para esse cargo na época,explicando as matérias para aqueles que ficaram de recuperação ou para aqueles que apenas estavam com dúvida sobre o conteúdo.Hoje eu sou monitor e posso ajudar mais pessoas tanto as do meu semestre quanto as outras dos outros semestres.O objetivo desse site é poder colocar os conteúdos aprendidos em prática.",
         "bt2": "Ver CV",
         "cv": "./portuguese.pdf",
-        "text1_languages": "Languages ",
-        "text2_languages": ""
+        "text1_languages": "Conhecimentos em ",
+        
     }
 };
 
@@ -122,14 +124,14 @@ const nav4 = document.querySelector('.t4');
 const nav5 = document.querySelector('.t5');
 const t1 = document.querySelector('.text-1');
 const t3 = document.querySelector('.text-3');
-const plustext = '<span class= "typing"></span>';
 const typ2 = document.querySelector('.typing');
 const b1 = document.querySelector('.button1');
 const text_about = document.querySelector('.column p');
 const b2 = document.querySelector('.column a');
 
-const text1_languages = document.querySelector('.show-text .txt1');
-const text2_languages = document.querySelector('.show-text .txt2');
+const text1_languages = document.querySelector('.txt1');
+const text2_languages = document.querySelector('.txt2');
+const text3_languages = document.querySelector('.txt3');
 
 
 link.forEach(el => {
@@ -148,6 +150,9 @@ link.forEach(el => {
         text_about.textContent = data[attr].text_about;
         b2.textContent = data[attr].bt2;
         b2.setAttribute("href", data[attr].cv);
+        text1_languages.textContent = data[attr].text1_languages;
+        text2_languages.textContent = data[attr].text1_languages;
+        text3_languages.textContent = data[attr].text1_languages;
         
     })
 })
