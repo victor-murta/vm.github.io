@@ -6,14 +6,34 @@
     color: #545758;
 }
 
+
 body{
-    
     display: block;
     text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    
 }
 
-h4{
-    margin: 23rem  0 0 0;
+section .section{
+    height: 100vh;
+}
+
+section .section .card{
+    width: 730px;
+    height: 530px;
+    border-radius: 30px;
+    background-color: #fff;
+    align-items: center;
+    margin: auto auto;
+    
+}
+
+h4{  
     font-size: 3rem;
 }
 
@@ -26,14 +46,35 @@ p{
 }
 
 a{
-    padding: 15px;
+    margin: 20px ;
+    padding: 13px;
     text-decoration: none;
     background:crimson;
     color: #fff;
     border-radius: 7px;
     transition: all .2s ease-in-out;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    z-index: 2;
 }
 
 a:hover{
-    filter: brightness(0.9);
+    filter: brightness(0.95);
 }
+
+.card img {
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    transform: translate(55px);
+}
+
+.section .close {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+
